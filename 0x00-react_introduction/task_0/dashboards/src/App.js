@@ -1,5 +1,6 @@
 import logo from './logo.jpg';
 import './App.css';
+import { getFullYear, getFooterCopy } from './utils';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
         <p>Login to access the full dashboard</p>
       </div>
       <div className='App-footer'>
-        <p>Copyright 2020 - ALX</p>
+        <p>Copyright {getFullYear()} - {getFooterCopy()}</p>
       </div>
     </div>
   );
