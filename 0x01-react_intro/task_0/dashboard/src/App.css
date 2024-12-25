@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.App-header {
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-bottom: 3px solid #e0354b;
+}
+
+.App-header img {
+  width: 150px;
+  margin: 20px;
+}
+
+.App-header h1 {
+  color: #e0354b;
+}
+
+.App-body {
+  margin: 30px;
+  padding: 30px;
+  height: 60vh;
+  border-bottom: 3px solid #e0354b;
+}
+
+.App-footer {
+  text-align: center;
+}
