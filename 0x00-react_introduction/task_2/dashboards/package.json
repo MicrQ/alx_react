@@ -2,6 +2,7 @@
   "name": "dashboards",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://micrq.github.io/alx_react/task_2/dashboards",
   "dependencies": {
     "cra-template": "1.2.0",
     "eslint-plugin-react": "^7.37.3",
@@ -12,6 +13,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint src/**/*.{js,jsx}"
@@ -39,6 +42,7 @@
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.1.0",
     "eslint": "^8.57.1",
+    "gh-pages": "^6.2.0",
     "web-vitals": "^4.2.4"
   }
 }
