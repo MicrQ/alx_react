@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import App from './App'; // Assuming App component is in a separate file
+import App from './App';
 
 describe('App', () => {
   it('renders without crashing', () => {

@@ -6,11 +6,11 @@ describe('utils tests', () => {
         expect(getFullYear()).toBe(year);
     });
 
-    test('getFooterCopy returns the correct string when the argument is true', () => {
+    test('getFooterCopy returns the correct string when true', () => {
         expect(getFooterCopy(true)).toBe('ALX');
     });
 
-    test('getFooterCopy returns the correct string when the argument is false', () => {
+    test('getFooterCopy returns the correct string when false', () => {
         expect(getFooterCopy(false)).toBe('ALX main dashboard');
     });
 
