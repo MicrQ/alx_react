@@ -1,0 +1,20 @@
+.Notifications {
+	width: 95%;
+    border: 2px dotted #FF0000;
+    padding: 0 20px;
+    top: 0;
+    position: absolute;
+
+}
+li[data="default"] {
+	color: #89CFF0;
+}
+li[data="urgent"] {
+	color: #FF0000;
+}
+.Notifications img{
+	top: 0px;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+}
